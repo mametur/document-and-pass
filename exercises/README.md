@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/10/2020, 9:15:06 AM
+> 7/11/2020, 5:08:59 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -45,17 +45,11 @@ console.log(greeting); // 'Hello, World!'
 **Test Report**
 ```
 Started
-.F..F.
+......
 
-Failures:
-1) Hello says hello world
-.    Expected '' to equal 'Hello, World!'..
 
-2) Hello says hello toys
-.    Expected '' to equal 'Hello, toys!'..
-
-2 specs, 2 failures
-Finished in 0.009 seconds
+2 specs, 0 failures
+Finished in 0.019 seconds
 
 ```
 
@@ -66,39 +60,14 @@ Finished in 0.009 seconds
 
 ## [./1-remove-from-array](./1-remove-from-array)
 
-<a name="removeFromArray"></a>
-
-## removeFromArray()
-
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F..F.
+.....................
 
-Failures:
-1) removeFromArray removes a single value
-.    Expected undefined to equal [ 1, 2, 4 ]..
 
-2) removeFromArray removes multiple values
-.    Expected undefined to equal [ 1, 4 ]..
-
-3) removeFromArray ignores non present values
-.    Expected undefined to equal [ 1, 2, 3, 4 ]..
-
-4) removeFromArray ignores non present values, but still works
-.    Expected undefined to equal [ 1, 3, 4 ]..
-
-5) removeFromArray can remove all values
-.    Expected undefined to equal [  ]..
-
-6) removeFromArray works with strings
-.    Expected undefined to equal [ 2, 'ho' ]..
-
-7) removeFromArray only removes same type
-.    Expected undefined to equal [ 1, 2 ]..
-
-7 specs, 7 failures
-Finished in 0.008 seconds
+7 specs, 0 failures
+Finished in 0.029 seconds
 
 ```
 
@@ -111,37 +80,25 @@ Finished in 0.008 seconds
 
 <a name="repeatString"></a>
 
-## repeatString()
+## repeatString(string, number) ⇒ <code>string</code>
+Write a function that simply repeats the string a given number of times:
+
+
+**Returns**: <code>string</code> - 'error message, empty string or concatenate the repeated string  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| string | <code>string</code> | will be repeat |
+| number | <code>number</code> | shows how many times first parameter will be repeated |
 
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F..F.
+.....................
 
-Failures:
-1) repeatString repeats the string
-.    Expected undefined to equal 'heyheyhey'..
 
-2) repeatString repeats the string many times
-.    Expected undefined to equal 'heyheyheyheyheyheyheyheyheyhey'..
-
-3) repeatString repeats the string 1 times
-.    Expected undefined to equal 'hey'..
-
-4) repeatString repeats the string 0 times
-.    Expected undefined to equal ''..
-
-5) repeatString returns ERROR with negative numbers
-.    Expected undefined to equal 'ERROR'..
-
-6) repeatString repeats the string a random amount of times
-.    TypeError: Cannot read property 'match' of undefined.
-
-7) repeatString works with blank strings
-.    Expected undefined to equal ''..
-
-7 specs, 7 failures
-Finished in 0.009 seconds
+7 specs, 0 failures
+Finished in 0.017 seconds
 
 ```
 
@@ -175,7 +132,7 @@ Failures:
 .    Expected undefined to equal ''..
 
 4 specs, 4 failures
-Finished in 0.004 seconds
+Finished in 0.015 seconds
 
 ```
 
@@ -215,7 +172,7 @@ Failures:
 .    Expected undefined to equal 'ERROR'..
 
 6 specs, 6 failures
-Finished in 0.006 seconds
+Finished in 0.016 seconds
 
 ```
 
@@ -264,7 +221,7 @@ Failures:
 .    Expected undefined to equal 21..
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.037 seconds
 
 ```
 
@@ -289,7 +246,7 @@ Failures:
 .    Expected undefined to equal [ 'Book', 'Book2' ]..
 
 1 spec, 1 failure
-Finished in 0.001 seconds
+Finished in 0.002 seconds
 
 ```
 
@@ -329,7 +286,7 @@ Failures:
 .    Expected undefined to equal false..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.023 seconds
 
 ```
 
@@ -366,7 +323,7 @@ Failures:
 .    Expected undefined to equal false..
 
 5 specs, 5 failures
-Finished in 0.006 seconds
+Finished in 0.017 seconds
 
 ```
 
@@ -409,7 +366,7 @@ Failures:
 .    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7 specs, 7 failures
-Finished in 0.005 seconds
+Finished in 0.03 seconds
 
 ```
 
@@ -440,7 +397,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.003 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -489,7 +446,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.008 seconds
+Finished in 0.024 seconds
 
 ```
 
@@ -529,7 +486,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.005 seconds
+Finished in 0.015 seconds
 
 ```
 
