@@ -1,23 +1,14 @@
-/**
- *
- * Create a function that returns a specific member of the fibonacci sequence:
- *
- *@param {number | string} param cast it then should be number
- *
- *
- * @example
- *fibonacci(4) // returns the 4th member of the series: 3  (1, 1, 2, 3) fibonacci(6) // returns 8
- */
 const fibonacci = (param) => {
+	// check it is Number
 	let checkNumber = Number(param);
-
+	// if it is NaN and small then 0 give an error
 	if (Number.isNaN(checkNumber) || checkNumber < 0) {
 		return 'OOPS';
 	}
-
+	// zero and first index are number 1 ever
 	let zeroIndex = 1;
 	let firstIndex = 1;
-
+	// initial array
 	let initialArray = [zeroIndex, firstIndex];
 
 	let starter = 2;
@@ -28,5 +19,3 @@ const fibonacci = (param) => {
 
 	return initialArray[checkNumber - 1];
 };
-
-module.exports = fibonacci;

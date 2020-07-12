@@ -12,14 +12,11 @@
  *
  */
 
-// Spread syntax (...) take restParam and covert to a literal Array
 const removeFromArray = (arr, ...restParam) => {
 	let changedArray = [];
-	// with forEach method go over each element of array
+
 	arr.forEach((element) => {
-		// with includes method check elements  whether in restParam array or not then result is boolean
 		if (!restParam.includes(element)) {
-			// push element is not in the restParam
 			changedArray.push(element);
 		}
 	});

@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/11/2020, 5:08:59 PM
+> 7/12/2020, 10:05:20 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.019 seconds
+Finished in 0.025 seconds
 
 ```
 
@@ -60,6 +60,24 @@ Finished in 0.019 seconds
 
 ## [./1-remove-from-array](./1-remove-from-array)
 
+<a name="removeFromArray"></a>
+
+## removeFromArray(arr, ...restParam) ⇒ <code>Array.&lt;Object&gt;</code>
+Implement a function that takes an array and some other arguments then removes the other arguments from that array
+
+
+**Returns**: <code>Array.&lt;Object&gt;</code> - Return values should be array without second parameter values  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| arr | <code>Array.&lt;Object&gt;</code> | parameter is array |
+| ...restParam | <code>Array.&lt;Object&gt;</code> | is removes from first parameter |
+
+**Example**  
+```js
+const remove = 3;
+removeFromArray([1, 2, 3, 4], remove); // [1, 2, 4]
+```
 **Test Report**
 ```
 Started
@@ -67,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.029 seconds
+Finished in 0.023 seconds
 
 ```
 
@@ -98,7 +116,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.017 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -111,28 +129,28 @@ Finished in 0.017 seconds
 
 <a name="reverseString"></a>
 
-## reverseString()
+## reverseString(string) ⇒ <code>string</code>
+Pretty simple, write a function called reverseString that returns its input, reversed!
 
+
+**Returns**: <code>string</code> - reversed  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| string | <code>string</code> | will reverse |
+
+**Example**  
+```js
+reverseString('hello there') // returns 'ereht olleh'
+```
 **Test Report**
 ```
 Started
-.F..F..F..F.
+............
 
-Failures:
-1) reverseString reverses single word
-.    Expected undefined to equal 'olleh'..
 
-2) reverseString reverses multiple words
-.    Expected undefined to equal 'ereht olleh'..
-
-3) reverseString works with numbers and punctuation
-.    Expected undefined to equal '!cba !321'..
-
-4) reverseString works with blank strings
-.    Expected undefined to equal ''..
-
-4 specs, 4 failures
-Finished in 0.015 seconds
+4 specs, 0 failures
+Finished in 0.012 seconds
 
 ```
 
@@ -145,34 +163,29 @@ Finished in 0.015 seconds
 
 <a name="sumAll"></a>
 
-## sumAll()
+## sumAll(start, end) ⇒ <code>number</code>
+Implement a function that takes 2 integers and returns the sum of every number between(and including) them:
 
+
+**Returns**: <code>number</code> - sum of the all integers  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| start | <code>number</code> | is a integer number |
+| end | <code>number</code> | is a integer number |
+
+**Example**  
+```js
+sumAll(1, 4) // returns the sum of 1 + 2 + 3 + 4 which is 10
+```
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F.
+..................
 
-Failures:
-1) sumAll sums numbers within the range
-.    Expected undefined to equal 10..
 
-2) sumAll works with large numbers
-.    Expected undefined to equal 8002000..
-
-3) sumAll works with larger number first
-.    Expected undefined to equal 7626..
-
-4) sumAll returns ERROR with negative numbers
-.    Expected undefined to equal 'ERROR'..
-
-5) sumAll returns ERROR with non-number parameters
-.    Expected undefined to equal 'ERROR'..
-
-6) sumAll returns ERROR with non-number parameters
-.    Expected undefined to equal 'ERROR'..
-
-6 specs, 6 failures
-Finished in 0.016 seconds
+6 specs, 0 failures
+Finished in 0.021 seconds
 
 ```
 
@@ -185,43 +198,27 @@ Finished in 0.016 seconds
 
 <a name="fibonacci"></a>
 
-## fibonacci()
+## fibonacci(param)
+Create a function that returns a specific member of the fibonacci sequence:
 
+
+
+| Param | Type | Description |
+| --- | --- | --- |
+| param | <code>number</code> \| <code>string</code> | cast it then should be number |
+
+**Example**  
+```js
+fibonacci(4) // returns the 4th member of the series: 3  (1, 1, 2, 3) fibonacci(6) // returns 8
+```
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F..F..F..F.
+...........................
 
-Failures:
-1) fibonacci works
-.    Expected undefined to equal 3..
 
-2) fibonacci works
-.    Expected undefined to equal 8..
-
-3) fibonacci works
-.    Expected undefined to equal 55..
-
-4) fibonacci works
-.    Expected undefined to equal 610..
-
-5) fibonacci works
-.    Expected undefined to equal 75025..
-
-6) fibonacci doesn't accept negatives
-.    Expected undefined to equal 'OOPS'..
-
-7) fibonacci DOES accept strings
-.    Expected undefined to equal 1..
-
-8) fibonacci DOES accept strings
-.    Expected undefined to equal 1..
-
-9) fibonacci DOES accept strings
-.    Expected undefined to equal 21..
-
-9 specs, 9 failures
-Finished in 0.037 seconds
+9 specs, 0 failures
+Finished in 0.02 seconds
 
 ```
 
@@ -246,7 +243,7 @@ Failures:
 .    Expected undefined to equal [ 'Book', 'Book2' ]..
 
 1 spec, 1 failure
-Finished in 0.002 seconds
+Finished in 0.006 seconds
 
 ```
 
@@ -286,7 +283,7 @@ Failures:
 .    Expected undefined to equal false..
 
 6 specs, 6 failures
-Finished in 0.023 seconds
+Finished in 0.009 seconds
 
 ```
 
@@ -366,7 +363,7 @@ Failures:
 .    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7 specs, 7 failures
-Finished in 0.03 seconds
+Finished in 0.01 seconds
 
 ```
 
@@ -397,7 +394,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.007 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -446,7 +443,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.024 seconds
+Finished in 0.016 seconds
 
 ```
 
@@ -486,7 +483,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.015 seconds
+Finished in 0.014 seconds
 
 ```
 
