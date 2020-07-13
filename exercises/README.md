@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/13/2020, 11:13:30 AM
+> 7/13/2020, 12:36:50 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.03 seconds
+Finished in 0.024 seconds
 
 ```
 
@@ -85,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.02 seconds
+Finished in 0.022 seconds
 
 ```
 
@@ -150,7 +150,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.015 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -185,7 +185,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.028 seconds
+Finished in 0.012 seconds
 
 ```
 
@@ -218,7 +218,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.032 seconds
+Finished in 0.013 seconds
 
 ```
 
@@ -264,7 +264,7 @@ Started
 
 
 1 spec, 0 failures
-Finished in 0.007 seconds
+Finished in 0.002 seconds
 
 ```
 
@@ -299,7 +299,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.023 seconds
+Finished in 0.011 seconds
 
 ```
 
@@ -312,31 +312,31 @@ Finished in 0.023 seconds
 
 <a name="palindromes"></a>
 
-## palindromes()
+## palindromes(string) ⇒ <code>boolean</code>
+Write a function that determines whether or not a given string is a palindrome.
 
+A palindrome is a string that is spelled the same both forwards and backwards, usually without considering punctuation or word breaks:
+
+
+**Returns**: <code>boolean</code> - true or false  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| string | <code>string</code> | is to check for palindrome |
+
+**Example**  
+```js
+palindromes('racecar') // true
+palindromes('tacos') // false 
+```
 **Test Report**
 ```
 Started
-.F..F..F..F..F.
+...............
 
-Failures:
-1) palindromes works with single words
-.    Expected undefined to equal true..
 
-2) palindromes works with punctuation
-.    Expected undefined to equal true..
-
-3) palindromes works with multiple words
-.    Expected undefined to equal true..
-
-4) palindromes works with multiple words
-.    Expected undefined to equal true..
-
-5) palindromes doesn't just always return true
-.    Expected undefined to equal false..
-
-5 specs, 5 failures
-Finished in 0.022 seconds
+5 specs, 0 failures
+Finished in 0.008 seconds
 
 ```
 
@@ -410,7 +410,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.018 seconds
+Finished in 0.011 seconds
 
 ```
 
@@ -459,7 +459,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.024 seconds
+Finished in 0.022 seconds
 
 ```
 
@@ -499,7 +499,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.012 seconds
+Finished in 0.015 seconds
 
 ```
 
