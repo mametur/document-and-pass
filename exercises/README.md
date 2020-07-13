@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/13/2020, 12:36:50 PM
+> 7/13/2020, 7:42:44 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.024 seconds
+Finished in 0.02 seconds
 
 ```
 
@@ -85,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.022 seconds
+Finished in 0.011 seconds
 
 ```
 
@@ -116,7 +116,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.028 seconds
+Finished in 0.017 seconds
 
 ```
 
@@ -150,7 +150,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.007 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -218,7 +218,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.013 seconds
+Finished in 0.018 seconds
 
 ```
 
@@ -299,7 +299,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.011 seconds
+Finished in 0.015 seconds
 
 ```
 
@@ -336,7 +336,7 @@ Started
 
 
 5 specs, 0 failures
-Finished in 0.008 seconds
+Finished in 0.011 seconds
 
 ```
 
@@ -349,37 +349,26 @@ Finished in 0.008 seconds
 
 <a name="caesar"></a>
 
-## caesar()
+## caesar(string, number) ⇒ <code>string</code>
+Implement the legendary caesar cipher:
+In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+
+
+**Returns**: <code>string</code> - the legendary caesar cipher  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| string | <code>string</code> | will change each  character another character |
+| number | <code>number</code> | increase letter |
 
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F..F.
+.....................
 
-Failures:
-1) caesar works with single letters
-.    Expected undefined to equal 'B'..
 
-2) caesar works with words
-.    Expected undefined to equal 'Bbb'..
-
-3) caesar works with phrases
-.    Expected undefined to equal 'Mjqqt, Btwqi!'..
-
-4) caesar works with negative shift
-.    Expected undefined to equal 'Hello, World!'..
-
-5) caesar wraps
-.    Expected undefined to equal 'A'..
-
-6) caesar works with large shift factors
-.    Expected undefined to equal 'Ebiil, Tloia!'..
-
-7) caesar works with large negative shift factors
-.    Expected undefined to equal 'Ebiil, Tloia!'..
-
-7 specs, 7 failures
-Finished in 0.028 seconds
+7 specs, 0 failures
+Finished in 0.017 seconds
 
 ```
 
@@ -410,7 +399,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.011 seconds
+Finished in 0.017 seconds
 
 ```
 
@@ -459,7 +448,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.022 seconds
+Finished in 0.023 seconds
 
 ```
 
@@ -499,7 +488,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.015 seconds
+Finished in 0.013 seconds
 
 ```
 
