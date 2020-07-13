@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/12/2020, 10:05:20 AM
+> 7/13/2020, 11:13:30 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.025 seconds
+Finished in 0.03 seconds
 
 ```
 
@@ -85,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.023 seconds
+Finished in 0.02 seconds
 
 ```
 
@@ -116,7 +116,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.008 seconds
+Finished in 0.028 seconds
 
 ```
 
@@ -150,7 +150,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.012 seconds
+Finished in 0.015 seconds
 
 ```
 
@@ -185,7 +185,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.021 seconds
+Finished in 0.028 seconds
 
 ```
 
@@ -218,7 +218,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.02 seconds
+Finished in 0.032 seconds
 
 ```
 
@@ -231,19 +231,40 @@ Finished in 0.02 seconds
 
 <a name="getTheTitles"></a>
 
-## getTheTitles()
+## getTheTitles(object)
+You are given an array of objects that represent books with an author and a title that looks like this:
 
+
+
+| Param | Type | Description |
+| --- | --- | --- |
+| object | <code>Array.&lt;object&gt;</code> | is an array include object |
+
+**Example**  
+```javascript
+  const books = [
+  {
+    title: 'Book',
+    author: 'Name'
+  },
+  {
+    title: 'Book2',
+    author: 'Name2'
+  }
+] 
+ ```
+
+```javascript
+getTheTitles(books) // ['Book','Book2']
+```
 **Test Report**
 ```
 Started
-.F.
+...
 
-Failures:
-1) getTheTitles gets titles
-.    Expected undefined to equal [ 'Book', 'Book2' ]..
 
-1 spec, 1 failure
-Finished in 0.006 seconds
+1 spec, 0 failures
+Finished in 0.007 seconds
 
 ```
 
@@ -256,34 +277,29 @@ Finished in 0.006 seconds
 
 <a name="leapYears"></a>
 
-## leapYears()
+## leapYears(years) ⇒ <code>boolean</code>
+Create a function that determines whether or not a given year is a leap year. Leap years are determined by the following rules:
 
+
+**Returns**: <code>boolean</code> - true or false  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| years | <code>number</code> | should be integer number |
+
+**Example**  
+```js
+leapYears(2000) // is a leap year: returns true
+leapYears(1985) // is not a leap year: returns false
+```
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F.
+..................
 
-Failures:
-1) leapYears works with non century years
-.    Expected undefined to equal true..
 
-2) leapYears works with non century years
-.    Expected undefined to equal false..
-
-3) leapYears works with ridiculously futuristic non century years
-.    Expected undefined to equal true..
-
-4) leapYears works with century years
-.    Expected undefined to equal false..
-
-5) leapYears works with century years
-.    Expected undefined to equal true..
-
-6) leapYears works with century years
-.    Expected undefined to equal false..
-
-6 specs, 6 failures
-Finished in 0.009 seconds
+6 specs, 0 failures
+Finished in 0.023 seconds
 
 ```
 
@@ -320,7 +336,7 @@ Failures:
 .    Expected undefined to equal false..
 
 5 specs, 5 failures
-Finished in 0.017 seconds
+Finished in 0.022 seconds
 
 ```
 
@@ -363,7 +379,7 @@ Failures:
 .    Expected undefined to equal 'Ebiil, Tloia!'..
 
 7 specs, 7 failures
-Finished in 0.01 seconds
+Finished in 0.028 seconds
 
 ```
 
@@ -394,7 +410,7 @@ Failures:
 .    TypeError: Cannot read property 'name' of undefined.
 
 3 specs, 3 failures
-Finished in 0.008 seconds
+Finished in 0.018 seconds
 
 ```
 
@@ -443,7 +459,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.016 seconds
+Finished in 0.024 seconds
 
 ```
 
@@ -483,7 +499,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.014 seconds
+Finished in 0.012 seconds
 
 ```
 
