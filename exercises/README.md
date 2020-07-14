@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/14/2020, 9:58:38 AM
+> 7/14/2020, 12:41:37 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.03 seconds
+Finished in 0.022 seconds
 
 ```
 
@@ -85,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.012 seconds
+Finished in 0.02 seconds
 
 ```
 
@@ -116,7 +116,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.02 seconds
+Finished in 0.016 seconds
 
 ```
 
@@ -150,7 +150,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.013 seconds
+Finished in 0.015 seconds
 
 ```
 
@@ -185,7 +185,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.019 seconds
+Finished in 0.017 seconds
 
 ```
 
@@ -218,7 +218,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.019 seconds
+Finished in 0.023 seconds
 
 ```
 
@@ -264,7 +264,7 @@ Started
 
 
 1 spec, 0 failures
-Finished in 0.003 seconds
+Finished in 0.004 seconds
 
 ```
 
@@ -299,7 +299,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.011 seconds
+Finished in 0.01 seconds
 
 ```
 
@@ -336,7 +336,7 @@ Started
 
 
 5 specs, 0 failures
-Finished in 0.011 seconds
+Finished in 0.019 seconds
 
 ```
 
@@ -368,7 +368,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.023 seconds
+Finished in 0.014 seconds
 
 ```
 
@@ -417,7 +417,7 @@ Started
 
 
 3 specs, 0 failures
-Finished in 0.006 seconds
+Finished in 0.008 seconds
 
 ```
 
@@ -430,43 +430,29 @@ Finished in 0.006 seconds
 
 <a name="translate"></a>
 
-## translate()
+## translate(word) ⇒ <code>string</code>
+Pig Latin is a made-up children's language that's intended to be confusing. It obeys a few simple rules (below) but when it's spoken quickly it's really difficult for non-children (and non-native speakers) to understand.
 
+
+**Returns**: <code>string</code> - changed word into Pig Latin rules  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| word | <code>string</code> | be manipulate as Pig latin rules |
+
+**Example**  
+```js
+s = translate("apple"); //appleay
+s = translate("banana"); //ananabay
+```
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F..F..F..F.
+...........................
 
-Failures:
-1) #translate translates a word beginning with a vowel
-.    Expected undefined to equal 'appleay'..
 
-2) #translate translates a word beginning with a consonant
-.    Expected undefined to equal 'ananabay'..
-
-3) #translate translates a word beginning with two consonants
-.    Expected undefined to equal 'errychay'..
-
-4) #translate translates two words
-.    Expected undefined to equal 'eatay iepay'..
-
-5) #translate translates a word beginning with three consonants
-.    Expected undefined to equal 'eethray'..
-
-6) #translate counts "sch" as a single phoneme
-.    Expected undefined to equal 'oolschay'..
-
-7) #translate counts "qu" as a single phoneme
-.    Expected undefined to equal 'ietquay'..
-
-8) #translate counts "qu" as a consonant even when its preceded by a consonant
-.    Expected undefined to equal 'aresquay'..
-
-9) #translate translates many words
-.    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
-
-9 specs, 9 failures
-Finished in 0.02 seconds
+9 specs, 0 failures
+Finished in 0.017 seconds
 
 ```
 
@@ -506,7 +492,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.032 seconds
+Finished in 0.031 seconds
 
 ```
 
