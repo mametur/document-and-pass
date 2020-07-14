@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/13/2020, 7:42:44 PM
+> 7/14/2020, 9:58:38 AM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.02 seconds
+Finished in 0.03 seconds
 
 ```
 
@@ -85,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.011 seconds
+Finished in 0.012 seconds
 
 ```
 
@@ -116,7 +116,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.017 seconds
+Finished in 0.02 seconds
 
 ```
 
@@ -150,7 +150,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.008 seconds
+Finished in 0.013 seconds
 
 ```
 
@@ -185,7 +185,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.012 seconds
+Finished in 0.019 seconds
 
 ```
 
@@ -218,7 +218,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.018 seconds
+Finished in 0.019 seconds
 
 ```
 
@@ -264,7 +264,7 @@ Started
 
 
 1 spec, 0 failures
-Finished in 0.002 seconds
+Finished in 0.003 seconds
 
 ```
 
@@ -299,7 +299,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.015 seconds
+Finished in 0.011 seconds
 
 ```
 
@@ -368,7 +368,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.017 seconds
+Finished in 0.023 seconds
 
 ```
 
@@ -381,25 +381,43 @@ Finished in 0.017 seconds
 
 <a name="findTheOldest"></a>
 
-## findTheOldest()
+## findTheOldest(array) ⇒ <code>string</code>
+given an array of objects representing people with a birth and death year, return the oldest person.
 
+
+**Returns**: <code>string</code> - the oldest person  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| array | <code>Array.&lt;Object&gt;</code> | is an array includes some property to check their old |
+
+**Example**  
+```js
+const people = [
+      {
+        name: 'Carly',
+        yearOfBirth: 2018,
+      },
+      {
+        name: 'Ray',
+        yearOfBirth: 1962,
+        yearOfDeath: 2011
+      },
+      {
+        name: 'Jane',
+        yearOfBirth: 1912,
+        yearOfDeath: 1941
+      },
+    ]  // Ray
+```
 **Test Report**
 ```
 Started
-.F..F..F.
+.........
 
-Failures:
-1) findTheOldest finds the oldest person!
-.    TypeError: Cannot read property 'name' of undefined.
 
-2) findTheOldest finds the oldest person if someone is still living
-.    TypeError: Cannot read property 'name' of undefined.
-
-3) findTheOldest finds the oldest person if the OLDEST is still living
-.    TypeError: Cannot read property 'name' of undefined.
-
-3 specs, 3 failures
-Finished in 0.017 seconds
+3 specs, 0 failures
+Finished in 0.006 seconds
 
 ```
 
@@ -448,7 +466,7 @@ Failures:
 .    Expected undefined to equal 'ethay ickquay ownbray oxfay'..
 
 9 specs, 9 failures
-Finished in 0.023 seconds
+Finished in 0.02 seconds
 
 ```
 
@@ -488,7 +506,7 @@ Failures:
 .    Expected undefined to equal 'snake_case_is_awesome'..
 
 6 specs, 6 failures
-Finished in 0.013 seconds
+Finished in 0.032 seconds
 
 ```
 
