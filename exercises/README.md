@@ -3,7 +3,7 @@
 <!-- END TITLE -->
 
 <!-- BEGIN TOC -->
-> 7/14/2020, 12:41:37 PM
+> 7/14/2020, 2:16:00 PM
 
 - [0-hello-world](#0-hello-world)
 - [1-remove-from-array](#1-remove-from-array)
@@ -49,7 +49,7 @@ Started
 
 
 2 specs, 0 failures
-Finished in 0.022 seconds
+Finished in 0.019 seconds
 
 ```
 
@@ -85,7 +85,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.02 seconds
+Finished in 0.01 seconds
 
 ```
 
@@ -116,7 +116,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.016 seconds
+Finished in 0.018 seconds
 
 ```
 
@@ -150,7 +150,7 @@ Started
 
 
 4 specs, 0 failures
-Finished in 0.015 seconds
+Finished in 0.005 seconds
 
 ```
 
@@ -185,7 +185,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.017 seconds
+Finished in 0.031 seconds
 
 ```
 
@@ -218,7 +218,7 @@ Started
 
 
 9 specs, 0 failures
-Finished in 0.023 seconds
+Finished in 0.026 seconds
 
 ```
 
@@ -264,7 +264,7 @@ Started
 
 
 1 spec, 0 failures
-Finished in 0.004 seconds
+Finished in 0.013 seconds
 
 ```
 
@@ -299,7 +299,7 @@ Started
 
 
 6 specs, 0 failures
-Finished in 0.01 seconds
+Finished in 0.017 seconds
 
 ```
 
@@ -368,7 +368,7 @@ Started
 
 
 7 specs, 0 failures
-Finished in 0.014 seconds
+Finished in 0.024 seconds
 
 ```
 
@@ -417,7 +417,7 @@ Started
 
 
 3 specs, 0 failures
-Finished in 0.008 seconds
+Finished in 0.007 seconds
 
 ```
 
@@ -465,34 +465,30 @@ Finished in 0.017 seconds
 
 <a name="snakeCase"></a>
 
-## snakeCase()
+## snakeCase(word) ⇒ <code>string</code>
+Convert phrases and words into snake case
+Snake case (or snake_case) is the practice of writing compound words or phrases in which the elements are separated with one underscore character (_) and no spaces, with each element's initial letter usually lowercased as in "foo_bar"
 
+
+**Returns**: <code>string</code> - converted to snake case  
+
+| Param | Type |
+| --- | --- |
+| word | <code>string</code> | 
+
+**Example**  
+```js
+snakeCase('Hello, World!') // hello_world
+   snakeCase('snakeCase') // snake_case
+```
 **Test Report**
 ```
 Started
-.F..F..F..F..F..F.
+..................
 
-Failures:
-1) snakeCase works with simple lowercased phrases
-.    Expected undefined to equal 'hello_world'..
 
-2) snakeCase works with Caps and punctuation
-.    Expected undefined to equal 'hello_world'..
-
-3) snakeCase works with longer phrases
-.    Expected undefined to equal 'this_is_the_song_that_never_ends'..
-
-4) snakeCase works with camel case
-.    Expected undefined to equal 'snake_case'..
-
-5) snakeCase works with kebab case
-.    Expected undefined to equal 'snake_case'..
-
-6) snakeCase works with WTF case
-.    Expected undefined to equal 'snake_case_is_awesome'..
-
-6 specs, 6 failures
-Finished in 0.031 seconds
+6 specs, 0 failures
+Finished in 0.014 seconds
 
 ```
 
